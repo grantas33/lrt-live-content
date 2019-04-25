@@ -1,1 +1,1 @@
-"# lrt-live-content" 
+Run with docker: `docker-compose up`

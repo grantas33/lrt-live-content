@@ -1,0 +1,12 @@
+version: "3"
+services:
+    rest-api:
+        build: .
+        container_name: rest-api
+        ports:
+            - "8080:8080"
+    web:
+        build: ./web
+        container_name: web
+        ports:
+            - "3000:80"
