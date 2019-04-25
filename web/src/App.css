@@ -1,0 +1,24 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.live-content {
+    height: 10rem;
+    width: 30rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
