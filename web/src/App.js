@@ -12,7 +12,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        fetch("http://localhost:8080")
+        fetch(window.location.pathname + "//" + window.location.hostname + ":8080")
             .then(response => {
                 if (response.ok) {
                     return response.json();

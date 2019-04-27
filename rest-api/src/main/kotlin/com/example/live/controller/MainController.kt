@@ -15,7 +15,7 @@ class MainController {
     @Autowired
     lateinit var liveContentProvider: LiveContentProvider;
 
-    @CrossOrigin(origins = ["http://localhost:3000"])
+    @CrossOrigin
     @RequestMapping("/", method = [RequestMethod.GET], produces = ["application/json"])
     fun api(): MutableList<LiveContent> = liveContentProvider.getLiveContents()
 
