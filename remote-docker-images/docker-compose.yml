@@ -1,0 +1,12 @@
+version: "3.0"
+services:
+    rest-api:
+        image: grantas33/lrt-live-rest-api
+        container_name: rest-api
+        ports:
+            - "8080:8080"
+    web:
+        image: grantas33/lrt-live-web
+        container_name: web
+        ports:
+            - "3000:80"
